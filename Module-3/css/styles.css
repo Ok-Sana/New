@@ -1,0 +1,145 @@
+* {
+	margin:0;
+	padding:0;
+ 	box-sizing: border-box;
+ 	font-family: Comic Sans MS, sans-serif;
+ 	font-size: 18px;
+
+ }
+
+
+body {  
+	background-color: #F8831B;
+	height:1500px;  
+}
+
+#logo {
+	border-radius: 0;
+	border:0;
+	background-color: #140833;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+
+}
+
+.container {
+	border-bottom:0;
+}
+
+.navbar-default .navbar-brand{
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand:visited {
+     color: #fff; 
+}
+.navbar-default .navbar-brand, #dropmenu li>a {
+	display:block;
+ 	text-decoration:none;
+ 	text-align: center; 	
+ 	color: #fff; 	
+}
+
+.navbar-default .navbar-collapse {
+	border-bottom-color: #fff;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+
+#dropmenu {
+	margin-top: 0;
+}
+#dropmenu a:hover {
+	background-color: #F8831B
+}
+
+#dropmenu a {
+	border-bottom: 1px solid #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border: 2px solid #F8831B;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: #140833 
+}
+
+h1 {
+ 	margin: 30px 0;
+ 	font-size:1.75em;
+ 	color: #fff;
+ 	text-transform: uppercase;
+ 	text-shadow: 1px 1px 3px #140833;
+ }
+
+p {
+	color: #140833;
+	margin: 15px 7.5px 15px 7.5px;
+	padding: 15px;
+	background-color: #f7a053;
+	text-align: justify;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px #140833;
+	overflow: auto;
+}
+
+.container p>span {
+	display: block;
+	padding: 15px 5px;
+	color: #140833;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-shadow: 1px 1px 3px #fff;
+}
+
+.container p>a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 3px #140833;
+	cursor: pointer; 
+
+}
+
+
+
+/********** Large devices only **********/
+
+@media (max-width: 1200px) {}
+
+
+/********** Medium devices only **********/
+
+@media (max-width: 992px) {
+
+	p {margin: 7.5px 7.5px 7.5px 7.5px;}
+}
+
+	/********** Small devices only **********/
+
+@media (max-width: 768px) {
+
+	p {margin: 7.5px 7.5px 7.5px 7.5px;}
+}
+
+/********** Extra small devices only **********/
+
+@media (max-width: 480px) {
+
+	p {margin: 7.5px 7.5px 7.5px 7.5px;}
